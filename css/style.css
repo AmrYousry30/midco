@@ -2124,7 +2124,7 @@ p .btn-submit {
 ## About Us
 --------------------------------------------------------------*/
 .circle-img {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 .about-img-small {
   position: relative;
@@ -4715,4 +4715,8 @@ p.footer {
   line-height: 26px;
 }
 
+.about-img-right img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
 /*------------------  End CSS-------------------------*/

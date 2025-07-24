@@ -18,7 +18,17 @@
             $('.checkout-login-form').stop(true, true).slideUp();
         }
     });
-    
+
+    /* scroll */
+    $(window).on('scroll', function () {
+    if ($(this).scrollTop() > 50) {
+      $('#site-header').addClass('scrolled');
+    } else {
+      $('#site-header').removeClass('scrolled');
+    }
+  });
+    /* scroll */
+
     $('.have-coupon a').on("click", function(){
         $(this).toggleClass( "active" );
         if ($(this).hasClass( "active" )) {
