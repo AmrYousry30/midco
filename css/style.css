@@ -1450,6 +1450,7 @@ input.form-control, select.form-control {
 ## Subheader
 --------------------------------------------------------------*/
 .page-header {
+  background: url('../images/page-header/subheader-about.jpg') no-repeat center center;
   position: relative;
   padding: 0;
   border: none;
