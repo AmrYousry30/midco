@@ -14,321 +14,140 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	
+	<!-- Icon Font Stylesheet -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+	
+
+	
+
 	<!-- CSS Stylesheet -->
-	<link rel="stylesheet" id="bootstrap-css" href="css/help-bootstrap.css" type="text/css" media="all">
-	<link rel="stylesheet" id="awesome-font-css" href="css/font-awesome.css" type="text/css" media="all">
-	<link rel="stylesheet" id="ionicon-font-css" href="css/ionicon.css" type="text/css" media="all">
-	<link rel="stylesheet" id="slick-slider-css" href="css/slick.css" type="text/css" media="all">
-	<link rel="stylesheet" id="slick-theme-css" href="css/slick-theme.css" type="text/css" media="all">
-	<link rel="stylesheet" id="magnific-popup-css" href="css/magnific-popup.css" type="text/css" media="all">
-	<link rel="stylesheet" id="lightbox-css" href="lib/lightbox/css/lightbox.min.css" type="text/css" media="all">
-	<link rel="stylesheet" id="industris-style-css" href="css/style.css" type="text/css" media="all">
+	<!-- <link rel="stylesheet" id="bootstrap-css"        href="css/help-bootstrap.css" type="text/css" media="all"> -->
+	<link rel="stylesheet" id="bootstrap-css"        href="css/nav-bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" id="awesome-font-css"     href="css/font-awesome.css" type="text/css" media="all">
+	<link rel="stylesheet" id="ionicon-font-css"     href="css/ionicon.css" type="text/css" media="all">
+	<link rel="stylesheet" id="slick-slider-css"     href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" id="slick-theme-css"      href="css/slick-theme.css" type="text/css" media="all">
+	<link rel="stylesheet" id="magnific-popup-css"   href="css/magnific-popup.css" type="text/css" media="all">
+	<link rel="stylesheet" id="lightbox-css"         href="lib/lightbox/css/lightbox.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="industris-style-css"  href="css/style.css" type="text/css" media="all">
 
 </head>
 
 <body>
+
 <div id="page" class="site">
-<!--searchbar -->
-	<div class="collapse searchbar" id="searchbar">
-		<div class="search-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search for...">
-							<span class="input-group-btn">
-								<button class="btn btn-primary" type="button">Go!</button>
-							</span>
-						</div>
-						<!-- /input-group -->
-					</div>
-					<!-- /.col-lg-6 -->
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- Searchbar -->
 
-<!--Main header start -->
-	<header id="site-header" class="site-header mobile-header-blue header-style-1">
-		<div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
-			<div class="container-custom">
-				<div class="row">
-					<div class="col-md-8">
-						<!-- Info on Topbar -->
-						<ul class="topbar-left">
-							<li><i class="icon ion-md-pin"></i> 141, Fifth and Sixth District, Industrial Zone </li>
-							<li><i class="icon ion-md-call"></i> +202 25218062 </li>
-							<li><i class="icon ion-md-mail"></i> info@midco-eg.com </li>
-						</ul>
-					</div>
-					<!-- Info on topbar close -->
-					<div class="col-md-4">
-						<ul class="topbar-right pull-right">
-							<li class="toggle_search topbar-search"><a href="#" title="Search"><i
-										class="icon ion-md-search"></i></a></li>
-							<!-- <li class="topbar-login"><a href="#"> Login </a></li>
-			                <li class="topbar-languages"><a href="#"> English <i class="icon ion-ios-arrow-down"></i></a></li> -->
-						</ul>
-					</div>
-				</div>
-			</div>
+<!-- Navbar Start -->
+<div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+	<div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
+		<div class="col-lg-6 px-5 text-start">
+			<a class="text-white" href="#"><i class="text-primary fa fa-map-marker me-2"></i>123 Street, New York, USA</a>
+			<a class="text-white" href="mailto:info@spe-egypt.com"> <i class="text-primary fa fa-envelope me-2"></i> info@spe-egypt.com</a>
 		</div>
-		<!-- Top bar close -->
-		<div class="main-header md-hidden sm-hidden">
-			<div class="container-custom">
-				<div class="row">
-					<div class="col-md-2">
-						<div class="logo-brand">
-							<a href="index.html"><img src="images/logo/logo-black_prev.png" alt="midco"></a>
-						</div>
-					</div>
-					<div class="col-md-10">
-						<div class="main-navigation">
-							<ul id="primary-menu" class="menu">
-							<!-- <li class="menu-item current-menu-ancestor current-menu-parent"><a href="index.html">Home</a></li> -->
-								<li class="menu-item menu-item-has-children"><a href="about-us.html">About Us</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="about-us.html">Vision</a></li>
-										<li class="menu-item"><a href="mission.html">Mission</a></li>
-										<li class="menu-item"><a href="values.html">Values</a></li>
-										<li class="menu-item"><a href="company-history.html">Company History</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children"><a href="#">Services & Supply</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="well-head-maintenance.html">Well Head Maintenance</a></li>
-										<li class="menu-item"><a href="wellhead_supply.html">Wellhead Supply</a></li>
-										<li class="menu-item"><a href="#">Casing Cold Cutter</a></li>
-										<li class="menu-item"><a href="#">Pressure Test Services</a></li>
-										<li class="menu-item"><a href="#">High-Torque</a></li>
-										<li class="menu-item"><a href="#">Manpower & Drilling consulting services</a></li>
-										<li class="menu-item"><a href="#">Filtration Services</a></li>
-										<li class="menu-item"><a href="#">Load Testing</a></li>
-										<li class="menu-item"><a href="#">Sling Test Bed Machine</a></li>
-										<li class="menu-item"><a href="#">Tubular Inspection</a></li>
-										<li class="menu-item"><a href="#">Inspection Services</a></li>
-										<li class="menu-item"><a href="#">Mooring System</a></li>
-										<li class="menu-item"><a href="#">Sand blasting & Painting</a></li>
-										<li class="menu-item"><a href="#">Supply "HAMBURG OIL TOOLS" handling tools</a></li>
-										<li class="menu-item"><a href="#">Electrical Pre-heating & Welding</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children"><a href="#">Our Clients</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="#">EGYPT</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children"><a href="#">QHSE</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="#">CST
-												Sole Agent for Wellhead & X-Tree Supplies & Maintenance</a></li>
-										<li class="menu-item"><a href="#">ISO-9001:2015 Quality Management System (BV)
-												Certificate</a></li>
-										<li class="menu-item"><a href="#">Certificate ISO 45001:2018 Safety Management
-												System</a></li>
-										<li class="menu-item"><a href="#">QHSE Policy (English)</a></li>
-										<li class="menu-item"><a href="#">QHSE Policy (Arabic)</a></li>
-										<li class="menu-item"><a href="#">API Q2 Registration Certificate</a></li>
-										<li class="menu-item"><a href="#">LEEA Full Membership Certificate</a></li>
-										<li class="menu-item"><a href="#">ISO-9001:2015 API</a></li>
-										<li class="menu-item"><a href="#">API Q1 9th edition</a></li>
-										<li class="menu-item"><a href="#">Certificate o Authority to use the official API
-												Monogram</a></li>
-									</ul>
-								</li>
-								<li class="menu-item current-menu-ancestor"><a href="#">Videos</a></li>
-								<li class="menu-item menu-item-has-children"><a href="#">Careers</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a
-												href="#">Opportunities</a></li>
-									</ul>
-								</li>
-	
-								<li class="menu-item menu-item-has-children"><a href="#">News</a>
-									<ul class="sub-menu">
-										<li class="menu-item "><a href="#">Media Center</a></li>
-										<li class="menu-item"><a href="#">Photo Gallery</a></li>
-									</ul>
-								</li>
-								<li class="menu-item current-menu-ancestor"><a href="contact-us.html">Contact us</a></li>
-	
-							</ul>
-							<!-- <a href="#" class="btn btn-primary">Get a quote<i class="icon ion-md-paper-plane"></i></a> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-<!-- Main header End -->
-	
-<!-- Mobile header start -->
-	<div class="mobile-header">
-			<div class="container-custom">
-				<div class="row">
-					<div class="col-xs-6">
-						<div class="logo-brand-mobile">
-							<a href="index.html"><img src="images/logo/logo-1.png" alt="Midco"></a>
-						</div>
-					</div>
-					<div class="col-xs-6">
-						<div id="mmenu_toggle">
-							<button type="button" aria-label="Open mobile menu"></button>
-						</div>
-					</div>
-					<div class="col-xs-12">
-						<div class="mobile-nav">
-							<ul id="primary-menu-mobile" class="mobile-menu">
-								<!-- <li class="menu-item current-menu-ancestor current-menu-parent"><a href="index.html">Home</a>
-								</li> -->
-								<li class="menu-item menu-item-has-children"><a href="about-us.html">About Us</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="vision.html">Vision</a></li>
-										<li class="menu-item"><a href="mission.html">Mission</a></li>
-										<li class="menu-item"><a href="values.html">Values</a></li>
-										<li class="menu-item"><a href="company-history.html">Company History</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children"><a href="#">Services & Supply</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="well-head-maintenance.html">Well Head Maintenance</a></li>
-										<li class="menu-item"><a href="wellhead_supply.html">Wellhead Supply</a></li>
-										<li class="menu-item"><a href="#">Casing Cold Cutter</a></li>
-										<li class="menu-item"><a href="#">Pressure Test Services</a></li>
-										<li class="menu-item"><a href="#">High-Torque</a></li>
-										<li class="menu-item"><a href="#">Manpower & Drilling consulting services</a></li>
-										<li class="menu-item"><a href="#">Filtration Services</a></li>
-										<li class="menu-item"><a href="#">Load Testing</a></li>
-										<li class="menu-item"><a href="#">Sling Test Bed Machine</a></li>
-										<li class="menu-item"><a href="#">Tubular Inspection</a></li>
-										<li class="menu-item"><a href="#">Inspection Services</a></li>
-										<li class="menu-item"><a href="#">Mooring System</a></li>
-										<li class="menu-item"><a href="#">Sand blasting & Painting</a></li>
-										<li class="menu-item"><a href="#">Supply "HAMBURG OIL TOOLS" handling tools</a></li>
-										<li class="menu-item"><a href="#">Electrical Pre-heating & Welding</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children"><a href="#">Our Clients</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="#">EGYPT</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children"><a href="#">QHSE</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item page_item current_page_item"><a href="#">CST
-												Sole Agent for Wellhead &
-												X-Tree Supplies & Maintenance</a></li>
-										<li class="menu-item"><a href="#">ISO-9001:2015 Quality Management System (BV)
-												Certificate</a></li>
-										<li class="menu-item"><a href="#">Certificate ISO 45001:2018 Safety Management
-												System</a></li>
-										<li class="menu-item"><a href="#">QHSE Policy (English)</a></li>
-										<li class="menu-item"><a href="#">QHSE Policy (Arabic)</a></li>
-										<li class="menu-item"><a href="#">API Q2 Registration Certificate</a></li>
-										<li class="menu-item"><a href="#">LEEA Full Membership Certificate</a></li>
-										<li class="menu-item"><a href="#">ISO-9001:2015 API</a></li>
-										<li class="menu-item"><a href="#">API Q1 9th edition</a></li>
-										<li class="menu-item"><a href="#">Certificate o Authority to use the official API
-												Monogram</a></li>
-									</ul>
-								</li>
-								<li class="menu-item current-menu-ancestor"><a href="#">Videos</a></li>
-								<li class="menu-item menu-item-has-children"><a href="#">Careers</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item page_item current_page_item"><a
-												href="#">Opportunities</a></li>
-									</ul>
-								</li>
-	
-								<li class="menu-item menu-item-has-children"><a href="#">News</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item page_item current_page_item"><a
-												href="#">Media Center</a></li>
-										<li class="menu-item"><a href="#">Photo Gallery</a></li>
-									</ul>
-								</li>
-								<li class="menu-item current-menu-ancestor"><a href="#">Videos</a></li>
-								<li class="menu-item menu-item-has-children"><a href="#">Careers</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item page_item current_page_item"><a
-												href="#">Opportunities</a></li>
-									</ul>
-								</li>
-	
-								<li class="menu-item menu-item-has-children"><a href="#">News</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item page_item current_page_item"><a
-												href="#">Media Center</a></li>
-										<li class="menu-item"><a href="#">Photo Gallery</a></li>
-									</ul>
-								</li>
-								<li class="menu-item current-menu-ancestor"><a href="contact-us.html">Contact us</a></li>
-	
-							</ul>
-							<a href="#" class="btn btn-primary">Get a quote<i class="icon ion-md-paper-plane"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-	</div>
-	</header>
-<!-- Mobile header End -->
-
-<!-- Slider Start -->
-<div class="slider" data-show="1" data-arrow="true">
-	<div>
-		<div class="slider-item">
-			<img src="images/slider/img_l_76.gif" alt="" class="">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-sm-12">
-						<div class="slider-content">
-							<h4>WELCOME TO MIDCO...!</h4>
-							<h1>High Quality Materials In All Solutions </h1>
-							<a class="btn btn-primary" href="#">Explore now</a>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="col-lg-6 px-5 text-end">
+			<small class="text-white"> Follow us : </small>
+			<a class="text-primary" href=""><i class="fab fa-facebook-f me-2"></i></a>
+			<a class="text-primary" href=""><i class="fab fa-linkedin-in me-2"></i></a>
 		</div>
 	</div>
 
-	<div>
-		<div class="slider-item">
-			<img src="images/slider/img_l_78.gif" alt="" class="">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-sm-12">
-						<div class="slider-content">
-							<h4>WELCOME TO MIDCO...!</h4>
-							<h1>Leader in power Automation </h1>
-							<a class="btn btn-primary" href="#">Explore now</a>
-						</div>
+	<nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+		<a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+			<img class="w-25" src="images/logo/logo-white_prev.png" alt="Image">
+		</a>
+		<button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<div class="navbar-nav ms-auto p-4 p-lg-0">
+				<a href="index.html" class="nav-item nav-link active">Home</a>
+				<a href="about.html" class="nav-item nav-link">About</a>
+				<a href="causes.html" class="nav-item nav-link">Causes</a>
+				<div class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+					<div class="dropdown-menu m-0">
+						<a href="service.html" class="dropdown-item">Service</a>
+						<a href="donate.html" class="dropdown-item">Donate</a>
+						<a href="team.html" class="dropdown-item">Our Team</a>
+						<a href="testimonial.html" class="dropdown-item">Testimonial</a>
+						<a href="404.html" class="dropdown-item">404 Page</a>
 					</div>
 				</div>
+				<a href="contact.html" class="nav-item nav-link">Contact</a>
 			</div>
-		</div>
-	</div>
-
-	<div>
-		<div class="slider-item">
-			<img src="images/slider/slider-3.jpg" alt="" class="">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-sm-12">
-						<div class="slider-content">
-							<h4>WELCOME TO MIDCO...!</h4>
-							<h1>Best solution for Industrial &amp; Factories </h1>
-							<a class="btn btn-primary" href="#">Explore now</a>
-						</div>
+			<div class="d-none d-lg-flex ms-2">
+				<a class="btn btn-outline-primary py-2 px-3" href="">
+					Donate Now
+					<div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+						<i class="fa fa-arrow-right"></i>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
-	</div>
-
+	</nav>
 </div>
-<!-- Slider End -->
+<!-- Navbar End -->
+
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0 ">
+	<div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="w-100" src="images/slider/img_l_76.gif" alt="Image">
+				<div class="carousel-caption">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-7 pt-5">
+								<h1 class="display-4 text-white mb-3 animated slideInDown">Let's Change The World With
+									Humanity</h1>
+								<p class="fs-5 text-white-50 mb-5 animated slideInDown">Aliqu diam amet diam et eos.
+									Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet</p>
+								<a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+									Learn More
+									<div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+										<i class="fa fa-arrow-right"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="w-100" src="images/slider/slider-7.jpg" alt="Image">
+				<div class="carousel-caption">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-7 pt-5">
+								<h1 class="display-4 text-white mb-3 animated slideInDown">Let's Save More Lifes With
+									Our Helping Hand</h1>
+								<p class="fs-5 text-white-50 mb-5 animated slideInDown">Aliqu diam amet diam et eos.
+									Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet</p>
+								<a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+									Learn More
+									<div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+										<i class="fa fa-arrow-right"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+</div>
+<!-- Carousel End -->
 
 <!-- Start  About Us  -->
 <section class="no-padding-bottom bg-light">
@@ -1071,11 +890,6 @@
 						<div id="media_image-1" class="widget widget_media_image">
 							<a href="index.html"><img src="images/footer/logo-white_prev_ui.png" alt=""></a>
 						</div>
-						<div id="custom_html-1" class="widget_text widget widget_custom_html">
-							<div class="textwidget custom-html-widget">
-								<p class="footer">Privacy | Integrity ©2025 Midco Company. <br>All Rights Res</p>
-							</div>
-						</div>
 					</div>
 				</div>
 				<!-- end col-lg-3 -->
@@ -1153,10 +967,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="topbar-left">
-						<li><i class="icon ion-md-pin"></i>141, Fifth and Sixth District, Industrial Zone</li>
-						<li><i class="icon ion-md-call"></i>+202 25218062</li>
-						<li><i class="icon ion-md-mail"></i>info@midco-eg.com</li>
-					</ul>
+							<li><i class="icon ion-md-pin"></i> 141, Fifth and Sixth District, Industrial Zone </li>
+							<li><i class="icon ion-md-call"></i> +202 25218062 </li>
+							<li><i class="icon ion-md-mail"></i> info@midco-eg.com </li>
+						</ul>
 					<a id="back-to-top" href="#" class="btn btn-back-to-top show pull-right">Back to top<i class="icon ion-ios-arrow-dropup-circle"></i></a>
 				</div>
 			</div>
@@ -1167,6 +981,15 @@
 <!--End Footer -->
 </div>
 
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/parallax/parallax.min.js"></script>
+<!-- Scripts -->
 <script src='js/jquery.min.js'></script>
 <script src='js/slick.min.js'></script>
 <script src='js/jquery.sticky.js'></script>
