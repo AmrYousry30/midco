@@ -1083,7 +1083,7 @@ a:hover, a:active {
 /* ###### */
 section {
   position: relative;
-  padding: 50px 0;
+  padding: 90px 0;
   display: block;
 }
 /*--------------------------------------------------------------
@@ -1223,7 +1223,7 @@ input.form-control, select.form-control {
 }
 
 .logo-brand {
-    margin: 20px 0px 0px 20px;
+    margin: -5px 15px 0px 55px;
 }
 
 .top-header-2 .logo-brand {
@@ -2948,13 +2948,13 @@ div:last-child >.process .process-icon:after {
   bottom: 240px; 
   margin-top: -1px;
 }
-.slider .slider-content h1,h2, h3 {
+.slider .slider-content h1 {
   color: #fff; 
   margin-bottom: 35px;
   /* font-size: 15px; */
   font-weight: 500;
 }
-.slider .slider-content h4, h5, h6 {
+.slider .slider-content h4 {
   font-size: 20px;
     font-weight: 500;
   letter-spacing: 2px; 
@@ -4799,7 +4799,8 @@ p.footer {
     padding-right: calc(((100% - 1320px) / 2) + .75rem);
   }
 }
-*------------------- Gallery Page -------------------*/ .gallery__page {
+/*------------------- Gallery Page -------------------*/
+.gallery__page {
   padding: 80px 15px 65px;
 }
 
