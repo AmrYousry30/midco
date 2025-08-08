@@ -4908,6 +4908,7 @@ p.footer {
 .top-bar {
   height: 45px;
   border-bottom: 1px solid rgba(255, 255, 255, .07);
+  background-color: #03649b85;
 }
 
 .navbar .dropdown-toggle::after {
@@ -4927,8 +4928,12 @@ p.footer {
   outline: none;
 }
 
-.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link :hover,
 .navbar .navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+a.dropdown-item:hover {
   color: var(--primary);
 }
 
