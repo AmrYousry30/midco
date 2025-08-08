@@ -603,39 +603,7 @@ $('.woocommerce-form-coupon').stop(true, true).slideUp();
 
     }
 
-    /* navbar */ 
-      // Initiate the wowjs
-    new WOW().init();
-
-
-    // Fixed Navbar
-    $(window).scroll(function () {
-        if ($(window).width() < 992) {
-            if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-dark shadow');
-            } else {
-                $('.fixed-top').removeClass('bg-dark shadow');
-            }
-        } else {
-            if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-dark shadow').css('top', -45);
-            } else {
-                $('.fixed-top').removeClass('bg-dark shadow').css('top', 0);
-            }
-        }
-    });
-    /* navbar */ 
-
-    /* Causes progress */ 
-      // Causes progress
-    $('.causes-progress').waypoint(function () {
-        $('.progress .progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {offset: '80%'});
-
-    /* Causes progress */ 
-
+   
 
     if ($('#back-to-top').length) {
 	    $('#back-to-top').on('click', function (e) {
@@ -710,5 +678,41 @@ if ($('.image-link').length) {
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
+/*-----------------------------*/
+ /* navbar */ 
+      // Initiate the wowjs
+    new WOW().init();
+
+
+    // Fixed Navbar
+    $(window).scroll(function () {
+        if ($(window).width() < 992) {
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-dark shadow');
+            } else {
+                $('.fixed-top').removeClass('bg-dark shadow');
+            }
+        } else {
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-dark shadow').css('top', -45);
+            } else {
+                $('.fixed-top').removeClass('bg-dark shadow').css('top', 0);
+            }
+        }
+    });
+    /* navbar */ 
+
+    /* Causes progress */ 
+      // Causes progress
+    $('.causes-progress').waypoint(function () {
+        $('.progress .progress-bar').each(function () {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
+        });
+    }, {offset: '80%'});
+
+    /* Causes progress */ 
+
+
     
 } )( jQuery );
