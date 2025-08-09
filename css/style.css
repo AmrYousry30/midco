@@ -5045,7 +5045,7 @@ a.dropdown-item:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: rgba(0, 29, 35, .8);
+  background: rgb(0 29 35 / 36%);
   z-index: 1;
 }
 
